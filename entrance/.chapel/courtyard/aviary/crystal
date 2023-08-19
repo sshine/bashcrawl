@@ -12,19 +12,25 @@
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
 #
-cat << EOF
+ITEM=crystal
+
+if ! grep --quiet "$ITEM" "$I" ; then
+    cat << EOF
 A white crystal, forged by the Queen of Winter, on the
 frosty ground.
 
 You can prefix this item to your inventory:
 
-I=crystal,\$I
+I=$ITEM,\$I
 
 Remember, you can check your inventory:
 
 echo \$I
 
 EOF
+else
+    echo "The crystal has already been taken"
+fi
 #
 #
 #
