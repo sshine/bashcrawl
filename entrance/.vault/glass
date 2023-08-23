@@ -26,7 +26,7 @@ You place the ice crystal among the shards of glass.  The
 sword in your hands becomes cold.  You feel the power of
 1000 blizzards coursing through it.
 
-Don't forget to remove the fish from your inventory.  Try
+Don't forget to remove the crystal from your inventory.  Try
 the following command:
 
 export I=\$(sed 's/$ITEM,//' <<< \$I)
