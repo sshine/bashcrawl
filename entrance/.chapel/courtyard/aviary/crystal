@@ -14,7 +14,7 @@
 #
 ITEM=crystal
 
-if ! grep --quiet "$ITEM" "$I" ; then
+if ! grep --quiet "$ITEM" <<<"$I" ; then
     cat << EOF
 A white crystal, forged by the Queen of Winter, on the
 frosty ground.
