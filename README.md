@@ -2,7 +2,15 @@
 
 This is a game to teach you the basics of using a POSIX (Linux, BSD, UNIX) terminal.
 
-## Try it on your machine
+## Download and unpack
+
+If you haven't downloaded Bashcrawl yet, go to https://gitlab.com/slackermedia/bashcrawl/-/releases and download the `Source code (zip)` file.
+
+Once the ZIP file has been downloaded to your computer, unzip it as usual.
+
+Now it's time to try it out on your computer.
+
+## Try it on your computer
 
 To start playing, open a terminal.
 
