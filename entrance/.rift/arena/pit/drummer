@@ -11,11 +11,11 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-# 
+#
 if [ -e drum ]; then
     cat << EOF
 War drums pound in the distance, giving Nyarlathotep
-strength. 
+strength.
 
 If you know a spell to un-summon the drums, Nyarlathotep
 would probably weaken!  Look up the "mv" or "rm" command.
@@ -303,7 +303,7 @@ fi
 
 # Hmm, that didn't work.
 #
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #
@@ -311,5 +311,5 @@ fi
 #
 # If you're not seeing the * after
 # this file name, you're probably
-# forgetting to use ls -F 
+# forgetting to use ls -F
 

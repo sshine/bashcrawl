@@ -5,11 +5,11 @@
 # The magic spell you use to look can be augmented.
 #
 # From now on, cast your spell like this:
-# 
+#
 # ls -F
-# 
+#
 # Directories (the rooms of these catacombs) end with a / symbol.
-# 
+#
 # Encounters (programs) end with a * symbol.
 #
 # You can avoid having to type `ls -F` every time by running the

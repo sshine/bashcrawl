@@ -26,7 +26,7 @@ A page from a druid's tome of incantations lies on the
 ground.  It reveals to you how to summon a healing potion:
 
 # To find a file on your system, use the find command.  For
-# example, to search this room: 
+# example, to search this room:
 
 find . -name "potion"
 
@@ -317,7 +317,7 @@ fi
 
 
 # Hmm, that didn't work.
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #

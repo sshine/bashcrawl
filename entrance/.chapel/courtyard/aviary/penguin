@@ -17,7 +17,7 @@
 gameover () {
     cat << EOF > corpse
 You see the corpse of a slain adventurer on the floor of the
-dungeon.  You find the following items on the corpse:  
+dungeon.  You find the following items on the corpse:
 
 ${I}
 
@@ -89,7 +89,7 @@ read RESP
 if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
     cat << EOF
 You take a step forward, and the bird rushes toward you, its
-mouth open wide.  
+mouth open wide.
 
 EOF
     printf "Do you happen to have a fish? y/n  "
