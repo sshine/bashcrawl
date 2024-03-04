@@ -11,11 +11,11 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-# 
+#
 
 cat << EOF
 You see a glowing red button with what appears to be an
-arrow pointing up inscribed on its face. 
+arrow pointing up inscribed on its face.
 
 EOF
 printf "Are you tempted to press the button?  y/n  "
@@ -422,7 +422,7 @@ fi
 #
 #
 #
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #
@@ -430,5 +430,5 @@ fi
 #
 # If you're not seeing the * after
 # this file name, you're probably
-# forgetting to use ls -F 
+# forgetting to use ls -F
 

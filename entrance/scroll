@@ -10,7 +10,7 @@ Then move into one of the next rooms.
 
 EXAMPLE:
 
-$ ls 
+$ ls
 $ cd cellar
 
 Remember to cast ``ls`` when you get into the next room!

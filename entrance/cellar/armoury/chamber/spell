@@ -11,7 +11,7 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-# 
+#
 
 if ! [ -L portal ]; then
     cat << EOF
@@ -25,7 +25,7 @@ EOF
     if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
         cat << EOF
 You recall the lessons of Caitlyn the Green, who taught you
-these ancient letters.  
+these ancient letters.
 
 The runes are instructions on how to summon a portal that
 will allow you to walk through an invisible door contained
@@ -371,7 +371,7 @@ fi
 
 
 # Hmm, that didn't work.
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #

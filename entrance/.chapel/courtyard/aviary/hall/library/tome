@@ -17,8 +17,8 @@ random_page () {
 
     # For each spell added, increase total_spells by one (1)
     # So, the number of the spells will be 0 through n - 1.  If
-    # there are five spells in the tome, then they will be 
-    # numbered from 0 through 4.  The operation to choose the 
+    # there are five spells in the tome, then they will be
+    # numbered from 0 through 4.  The operation to choose the
     # current spell will pick a random number, 0 through n - 1.
     # That spell will be displayed.
     total_spells=6
@@ -41,9 +41,9 @@ Now when you run the "ls" command by itself, rooms
 (directories), scrolls (text files), and encounters
 (executable files) should each have different colors.
 Depending on the \$LS_COLORS variable, many other files will
-have different colors too!  
+have different colors too!
 
-You can read more about colors by consulting the 
+You can read more about colors by consulting the
 "dircolors" manual.  To read more, type this spell:
 
 man dircolors
@@ -58,9 +58,9 @@ EOF
 
 Keep track of where you've been!
 
-Instead of using "cd <room>" and "cd .." to 
+Instead of using "cd <room>" and "cd .." to
 navigate the catacombs, you can keep track of the
-rooms you've been in by using "pushd" and "popd". 
+rooms you've been in by using "pushd" and "popd".
 "pushd", as the name implies, pushes the directory you
 pass as the argument onto the room (directory) stack.
 Use it like so:
@@ -73,12 +73,12 @@ stack, type the following command:
 
 dirs
 
-This will print out the list of directories on the stack. 
+This will print out the list of directories on the stack.
 The data structure is a known as a stack, because you only
 add or remove elements from the top of the stack, it is also
 known as a LIFO (Last In, First Out) data structure.  To
 remove the top room (directory) from the stack, and change
-directory to the new directory on the top of the stack, use 
+directory to the new directory on the top of the stack, use
 "popd", like so:
 
 popd
@@ -86,7 +86,7 @@ popd
 This will remove the top element of the stack ("pop" it off the
 stack), and change directory to the next top of the stack.
 
-Here's an example.  You're in a room (directory) called 
+Here's an example.  You're in a room (directory) called
 ~/bashcrawl/entrance/field/, with the following
 other rooms:
 
@@ -202,7 +202,7 @@ tmux new-session -s <session_name>
 
 Where <session_name> can be replaced by the arbitrary name
 you want to give the session.  If you don't want to name the
-session, you can leave off "-s <session_name>".  
+session, you can leave off "-s <session_name>".
 
 By default, tmux will create the new session with one
 window, and that window will have but one pane.  Each pane
@@ -268,13 +268,13 @@ them.  For instance, let's assume you want to compress each
 file individually, without adding them to a single, large
 tar (or ZIP) archive.   Instead of laboriously running the
 commands 100 times for 100 files, you can use a for loop,
-and operate on each file individually.  
+and operate on each file individually.
 
 One way to achieve this is through a simple brace expansion.
 In Bash, insted of writing the following (which is very
 labor intensive):
 
-gzip file00 
+gzip file00
 gzip file01
 gzip file02
 gzip file03
@@ -323,17 +323,17 @@ read RESP
 if [ "${RESP}" = "y" -o "${RESP}" = "Y" ]; then
     cat << EOF
 
-The tome appears to be a book of spells.  Here is the 
+The tome appears to be a book of spells.  Here is the
 first spell:
 
 EOF
 
     while [ "${RESP}" = 'y' -o "${RESP}" = 'Y' ]; do
         random_page
-    
+
         printf "Do you want to read another spell? y/n  "
         read RESP
-    done 
+    done
 fi
 
 
@@ -488,7 +488,7 @@ fi
 
 
 # Hmm, that didn't work.
-# Remember, when files end in a * it means they are 
+# Remember, when files end in a * it means they are
 # applications (commands). Try this:
 #
 # ./tome

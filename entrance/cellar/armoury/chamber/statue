@@ -11,12 +11,12 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-# 
+#
 
 gameover () {
     cat << EOF > corpse
 You see the corpse of a slain adventurer on the floor of the
-dungeon.  You find the following items on the corpse:  
+dungeon.  You find the following items on the corpse:
 
 $I
 
@@ -424,7 +424,7 @@ fi
 
 
 # Hmm, that didn't work.
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #

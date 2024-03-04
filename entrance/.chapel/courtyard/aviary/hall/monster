@@ -15,7 +15,7 @@
 gameover () {
     cat << EOF > corpse
 You see the corpse of a slain adventurer on the floor of the
-dungeon.  You find the following items on the corpse: 
+dungeon.  You find the following items on the corpse:
 
 ${I}
 
@@ -63,7 +63,7 @@ You each parry one another's attacks.  Roll again...
 EOF
 	roll
     fi
-    
+
     if [[ $MONSTER -lt $NUM ]]; then
         cat << EOF
 A hit! A palpable hit!  You have slain the beast.
@@ -79,7 +79,7 @@ eof
 
 else
     echo "This treasure has already been taken."
-fi 
+fi
 
 EOF
         chmod +x treasure
@@ -97,7 +97,7 @@ EOF
         export HP
         if [ "$HP" -le 0 ]; then
             cat << EOF
-You have been slain by the monster.  
+You have been slain by the monster.
 
 GAME OVER!
 
@@ -123,7 +123,7 @@ A hulking three-legged beast, with a mouth full of fangs and
 a barbed tail and 8 arms, lumbers toward you.
 
 If you have a sword, you can attack.  Otherwise, you should
-run.  
+run.
 
 EOF
 printf "Do you want to attack? y/n  "

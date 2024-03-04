@@ -385,7 +385,7 @@ fi
 
 # Hmm, that didn't work.
 #
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #
@@ -393,6 +393,6 @@ fi
 #
 # If you're not seeing the * after
 # this file name, you're probably
-# forgetting to use ls -F 
+# forgetting to use ls -F
 
 

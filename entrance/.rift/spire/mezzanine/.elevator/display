@@ -11,12 +11,12 @@
 # When you're ready to continue playing the game, though, stick to
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
-# 
+#
 
 floors=666
 countdown () {
 	var=${floors}
-	len=${#var} 
+	len=${#var}
 	echo -n $var
     let m=var-1
 	for t in `seq ${m} -1 1`
@@ -63,7 +63,7 @@ countup () {
 if grep --quiet UP .direction; then
     cat << EOF
 You hear a slight whirring, and feel a heaviness at your
-feet, with a vague, disquieting sense of motion.  
+feet, with a vague, disquieting sense of motion.
 
 A magickal display reads:
 
@@ -84,7 +84,7 @@ EOF
 else
     cat << EOF
 You hear a slight whirring, and feel a lightness at your
-feet, with a vague, disquieting sense of motion. 
+feet, with a vague, disquieting sense of motion.
 
 A magickal display reads:
 
@@ -495,7 +495,7 @@ fi
 #
 #
 #
-# Remember, when files end in a * 
+# Remember, when files end in a *
 # it means they are applications.
 # Try this:
 #
@@ -503,5 +503,5 @@ fi
 #
 # If you're not seeing the * after
 # this file name, you're probably
-# forgetting to use ls -F 
+# forgetting to use ls -F
 
