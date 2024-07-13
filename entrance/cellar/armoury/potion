@@ -12,6 +12,14 @@
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
 #
+
+# check if we found that bottle already ...
+if [[ -v HP ]] ; then
+  cat <<EOF
+You checked that bottle already. 
+EOF
+else
+# let's investigate the bottle...
 cat << EOF
 You have found a potion bottle of swirling
 green liquid. Do you want to drink it?  y/n
@@ -53,7 +61,7 @@ EOF
 mv ../../.chapel ../../chapel 2>/dev/null
 mv ../../.vault ../../vault 2>/dev/null
 mv ../../.scrap ../../scrap 2>/dev/null
-
+fi
 
 
 
