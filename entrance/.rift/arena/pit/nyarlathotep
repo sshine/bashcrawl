@@ -12,6 +12,12 @@
 # the scrolls. If you're stuck, go to Gitlab and create an issue.
 # We're happy to provide hints.
 #
+
+#import global functions from toplevel directory
+FUNCTIONS=$(pwd)
+FUNCTIONS=${FUNCTIONS%entrance*}entrance/.functions
+. $FUNCTIONS
+
 roll() {
     echo "Enter a number."
     read NUM
@@ -43,25 +49,6 @@ roll() {
 	echo "+2 POSIX wizard bonus!"
     fi
     resolve
-}
-
-gameover () {
-    cat << EOF > corpse
-You see the corpse of a slain adventurer on the floor of the
-dungeon.  You find the following items on the corpse:
-
-${I}
-
-EOF
-    curr=`basename $PWD`
-    while [ "$curr" != "entrance" ]; do
-        pushd .. &> /dev/null
-        dirs -c
-        curr=`basename $PWD`
-    done
-    unset I
-    unset HP
-    $SHELL
 }
 
 flee () {
