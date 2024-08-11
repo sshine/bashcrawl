@@ -43,6 +43,10 @@ cat scroll
 You are now playing the game.
 May the gods save you.
 
+## Restarting the game
+
+If you want a fresh start, the easiest way to start over is to trash the `bashcrawl` folder and unzip a fresh copy.
+
 ## Try it online with mybinder
 
 - Follow this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/nthiery%2Fbashcrawl/HEAD).
