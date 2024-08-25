@@ -19,6 +19,8 @@ and feel a surge of strength.
 
 Add 5 HP to your score.
 
+let HP=HP+5
+
 EOF
 else
     cat << EOF
