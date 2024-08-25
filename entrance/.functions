@@ -12,6 +12,10 @@
 # We're happy to provide hints.
 # 
 
+# This is a custom function.
+# A function is a snippet of code that you can use in other files.
+# Whenever you see the `gameover`command in a file of this
+# dungeon, that's a "call" to this function.
 gameover () {
     CORPSE=$(mktemp corpse.XXX)
     cat << EOF2 > $CORPSE
