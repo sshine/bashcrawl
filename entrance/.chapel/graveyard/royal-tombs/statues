@@ -24,7 +24,7 @@ if [ "$0" = "./king" ]; then
     cat << EOF
 You have already unveiled the secret number.
 
-Rember it by adding it to your inventory:
+Remember it by adding it to your inventory:
 
 export I=7432,\$I
 EOF
