@@ -97,8 +97,8 @@ EOF
 The doors slide open, with nothing but darkness beyond.
 
 EOF
-    sleep 10 && \
-        ln -sf .. door && \
+    ln -sf .. door && \
+        sleep 10 && \
         echo "The doors slide closed." && \
         rm door &> /dev/null &
     echo
